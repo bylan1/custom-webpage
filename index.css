@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -39,4 +43,28 @@
     background-color: salmon;
 }
 
-.pure-menu-link
+#all-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.item-data {
+    flex: 1 0 21%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item-data:hover {
+    opacity: 0.6;
+}
+
+.item-display {
+    max-width: 100%;
+}
+
+.item-text {
+    text
+}
