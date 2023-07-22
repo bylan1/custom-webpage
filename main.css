@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_right {
+    margin-left: auto;
+}
+
+.main_link {
+    margin-left: 40%;
+}
+
+.logo {
+    max-width: 20%;
+}
+
+.list_container {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+#full_nav {
+    background-color: lightsalmon;
+}
+
+.pure-menu-link {
+    color: whitesmoke
+}
+
+.pure-menu-link:hover {
+    background-color: salmon;
+}
+
+.pure-menu-link
